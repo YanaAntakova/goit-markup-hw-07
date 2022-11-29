@@ -155,10 +155,9 @@
 }
 
 .modal__form-checkbox:checked {
-    outline-color: 2px solid var(--accent-cl);
     background-color: var(--accent-cl);
     border: transparent;
-    background-size: 11px 8px;
+    background-size: auto;
 }
 
 .modal__btn {
@@ -176,6 +175,10 @@
     background: transparent;
     cursor: pointer;
 }
+ .modal__btn:hover .modal__icon,
+ .modal__btn:focus .modal__icon {
+     fill: #2196F3;
+ }
 
 .modal__form-btn {
     display: block;

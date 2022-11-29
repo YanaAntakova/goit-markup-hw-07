@@ -1,16 +1,14 @@
 .clients {
-background-color: #F5F5F5;
-
-&__list {
+background-color: #FFFFFF;
+}
+.clients__list {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
-&__icon {
+.clients__icon {
     fill: currentColor;
 }
-}
-
 .clients__link {
     display: flex;
     justify-content: center;

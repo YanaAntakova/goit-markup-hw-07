@@ -45,8 +45,17 @@
 
 &:hover,
 &:focus {
-    color: #FFFFFF
+    color: #FFFFFF;
 }
+}
+.footer__link--map {
+    font-style: normal;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    transition: color var(--animation);
+    color: #FFFFFF;
 }
 .socials__link--footer {
     display: flex;

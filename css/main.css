@@ -6,6 +6,7 @@
 
 body {
   font-family: "Roboto", "Times New Roman", "Verdana", "Tahoma", sans-serif;
+  background-color: #FFFFFF;
 }
 
 html {
@@ -410,6 +411,17 @@ img {
   color: #FFFFFF;
 }
 
+.footer__link--map {
+  font-style: normal;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  -webkit-transition: color var(--animation);
+  transition: color var(--animation);
+  color: #FFFFFF;
+}
+
 .socials__link--footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -480,8 +492,9 @@ img {
 }
 
 .clients {
-  background-color: #F5F5F5;
+  background-color: #FFFFFF;
 }
+
 .clients__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -491,6 +504,7 @@ img {
           justify-content: center;
   gap: 30px;
 }
+
 .clients__icon {
   fill: currentColor;
 }
@@ -725,10 +739,9 @@ img {
 }
 
 .modal__form-checkbox:checked {
-  outline-color: 2px solid var(--accent-cl);
   background-color: var(--accent-cl);
   border: transparent;
-  background-size: 11px 8px;
+  background-size: auto;
 }
 
 .modal__btn {
@@ -751,6 +764,11 @@ img {
   height: 30px;
   background: transparent;
   cursor: pointer;
+}
+
+.modal__btn:hover .modal__icon,
+.modal__btn:focus .modal__icon {
+  fill: #2196F3;
 }
 
 .modal__form-btn {
@@ -811,6 +829,8 @@ img {
   transition: color var(--animation), background-color var(--animation);
 }
 .grid__btn:hover, .grid__btn:focus {
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   color: #FFFFFF;
   background: var(--accent-cl);
   cursor: pointer;
